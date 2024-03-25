@@ -1,5 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import MenuOption from '@/views/MenuOption.vue';
+import CadastroProdutor from '@/views/CadastroProdutor.vue'
+import CadastroAnimal from '@/views/CadastroAnimal.vue';
+import CadastroPropriedade from '@/views/CadastroPropriedade.vue'
 
 const routes = [
   {
@@ -19,10 +22,19 @@ const routes = [
     props: { pageName: 'Opção 2' } 
   },
   {
-    path: '/opcao4',
-    name: 'Opção 4',
-    component: MenuOption, 
-    props: { pageName: 'Opção 4' } 
+    path: '/cadastro-produtor',
+    name: 'Produtor',
+    component: CadastroProdutor, 
+  },
+  {
+    path: '/cadastro-propriedade',
+    name: 'Propriedade',
+    component: CadastroPropriedade, 
+  },
+  {
+    path: '/cadastro-animal',
+    name: 'Animal',
+    component: CadastroAnimal, 
   },
   {
     path: '/opcao5',

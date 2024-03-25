@@ -22,10 +22,12 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Opção 3
+                Cadastrar
               </a>
               <ul class="dropdown-menu">
-                <li><router-link to="/Opcao4" class="dropdown-item">Opção 4</router-link></li>
+                <li><router-link to="/cadastro-produtor" class="dropdown-item">Produtor</router-link></li>
+                <li><router-link to="/cadastro-propriedade" class="dropdown-item">Propriedade</router-link></li>
+                <li><router-link to="/cadastro-animal" class="dropdown-item">Animal</router-link></li>
                 <li><router-link to="/Opcao5" class="dropdown-item">Opção 5</router-link></li>
                 <li><hr class="dropdown-divider"></li>
               </ul>
